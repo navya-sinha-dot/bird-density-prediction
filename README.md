@@ -1,10 +1,10 @@
-# 🦅 AeroBird: Bird Density Prediction System
+# AeroBird: Bird Density Prediction System
 
 AeroBird is an end-to-end machine learning and data visualization platform designed to predict and map bird density (abundance) across different regions in India using real-time citizen-science data, environment observations, and geospatial coordinates.
 
 ---
 
-## 🏗️ Architecture & Component Interactions
+## Architecture & Component Interactions
 
 ```mermaid
 graph TD
@@ -24,7 +24,7 @@ graph TD
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Data Sources:** 
   - **eBird API:** Fetches recent bird observation data (species, abundance, coordinates, date).
@@ -40,7 +40,7 @@ graph TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 birddensity_prediction/
@@ -67,7 +67,7 @@ birddensity_prediction/
 
 ---
 
-## 🧬 Machine Learning & Features
+## Machine Learning & Features
 
 The regressor is trained on the following feature set to predict `total_birds` (the count of birds seen in a checklist session):
 
@@ -82,7 +82,7 @@ The regressor is trained on the following feature set to predict `total_birds` (
 
 ---
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
 ### 1. Clone the Repository & Configure Environment
 Create a `.env` file in the root directory and add your eBird API Token:
