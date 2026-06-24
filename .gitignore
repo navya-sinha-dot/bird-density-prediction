@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scikit-learn trained models
+models/bird_density_model.pkl
+
+# Datasets generated locally
+final_dataset.csv
+aggregated_dataset.csv
+
+# IDE settings
+.vscode/
+.idea/
